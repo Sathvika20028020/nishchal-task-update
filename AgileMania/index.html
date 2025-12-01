@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,18 +61,43 @@
 
                 <ul class="navbar-nav align-items-lg-center ms-auto">
 
-                    <li class="nav-item mx-2">
-                        <a class="nav-link fw-semibold" href="#">Services</a>
+                    <li class="nav-item dropdown mx-2 services-dropdown">
+                        <a class="nav-link fw-semibold" href="#" id="servicesDropdown">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu shadow-sm" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item"
+                                    href="/AgileMania/services/bionic agile transformation.html">Bionic Agile
+                                    Transformation</a></li>
+                            <li><a class="dropdown-item" href="#">Business Agility with SAFe®</a></li>
+                            <li><a class="dropdown-item" href="#">Service Delivery Using Kanban</a></li>
+                            <li><a class="dropdown-item" href="#">Agile Software Development</a></li>
+                            <li><a class="dropdown-item" href="#">Product Delivery with Scrum</a></li>
+                            <li><a class="dropdown-item" href="#">Agile Capabilities Using ICAgile</a></li>
+                            <li><a class="dropdown-item" href="#">Agile Project Management</a></li>
+                            <li><a class="dropdown-item" href="#">Web & Mobile App Development</a></li>
+                            <li><a class="dropdown-item" href="#">Agile Learning</a></li>
+                        </ul>
                     </li>
 
 
 
-                    <li class="nav-item dropdown mx-2">
-                        <a class="nav-link fw semibold dropdown-toggle" href="#" data-bs-toggle="dropdown">
+
+                    <li class="nav-item dropdown mx-2 resources-dropdown">
+                        <a class="nav-link fw-semibold" href="#" id="resourcesDropdown">
                             Resources
                         </a>
 
+                        <ul class="dropdown-menu shadow-sm" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="#">Blogs</a></li>
+                            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                            <li><a class="dropdown-item" href="#">E-Books</a></li>
+                            <li><a class="dropdown-item" href="#">Webinars</a></li>
+                            <li><a class="dropdown-item" href="#">Templates</a></li>
+                        </ul>
                     </li>
+
 
                     <li class="nav-item dropdown mx-2">
                         <button class="btn dropdown-toggle border-0 bg-transparent" type="button"
@@ -106,44 +132,1019 @@
         </div>
     </nav>
 
-    <section class="hero-section py-5">
-        <div class="container">
-            <div class="row align-items-center">
 
-                <div class="col-lg-5 hero-left">
+
+    <section class="py-5 hero-section">
+        <div class="container">
+            <div class="row align-items-start">
+
+                <!-- LEFT COLUMN -->
+                <div class="col-lg-6 mb-4 mb-lg-0 hero-left">
                     <h1 class="display-4 fw-bold">
-                        We Expedite <span class="text-info">Digital Transformation</span>
-                        with Agile.
+                        We Expedite <span class="text-info">Digital Transformation</span> with Agile.
                     </h1>
 
-                    <button class="btn btn-info text-white px-4 py-2 mt-4">
-                        Get Started<i class="bi bi-arrow-up-right"></i>
+                    <button class="btn btn-info text-white px-4 py-2 mt-3">
+                        GET STARTED →
                     </button>
                 </div>
 
-                <div class="col-lg-4 text-center">
-                    <img src="assets/images/banner-img.webp" alt="" class="img-fluid hero-img">
+                <!-- RIGHT COLUMN -->
+                <div class="col-lg-6 text-center text-lg-start right-image">
+
+                    <!-- IMAGE -->
+                    <img src="assets/images/banner-img.webp" class="img-fluid hero-illustration" alt="Hero Image">
+
+                    <!-- TEXT UNDER IMAGE -->
+                    <h4 class="fw-bold mt-4">
+                        Struggling to Find Momentum on Your Digital Transformation Journey?
+                    </h4>
+
+                    <p>
+                        We will accelerate your digitalization journey and help you navigate the journey
+                        to a highly functioning agile culture.
+                    </p>
+
                 </div>
 
-                <div class="col-lg-3">
-                    <h4 class="fw-bold">
-                        Struggling to Find Momentum on Your<br>
-                        Digital Transformation Journey?
-                    </h4>
-                    <p class="mt-3">
-                        We will accelerate your digitalization journey and help you navigate the journey to a highly
-                        functioning agile culture.
-                    </p>
-                </div>
             </div>
         </div>
     </section>
 
 
 
+
+
+
+    <section class=" position-relative p-0">
+        <div class="container why-section py-5">
+
+            <div class="row align-items-start">
+
+                <div class="col-md-5">
+                    <div class="row g-4">
+
+                        <div class="col-6">
+                            <div class="stat d-flex align-items-center gap-3">
+                                <img src="assets/images/why-icon1.svg" width="55" alt="">
+                                <div>
+                                    <h3 class="text-white fw-bold mb-0">70%</h3>
+                                    <p class="mb-0 text-light">Faster Time to Market</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="stat d-flex align-items-center gap-3">
+                                <img src="assets/images/why-icon2.svg" width="55" alt="">
+                                <div>
+                                    <h3 class="text-white fw-bold mb-0">237%</h3>
+                                    <p class="mb-0 text-light">Increased Commercial Performance</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="stat d-flex align-items-center gap-3">
+                                <img src="assets/images/why-icon3.svg" width="55" alt="">
+                                <div>
+                                    <h3 class="text-white fw-bold mb-0">47%</h3>
+                                    <p class="mb-0 text-light">Reduced Risk</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="stat d-flex align-items-center gap-3">
+                                <img src="assets/images/why-icon4.svg" width="55" alt="">
+                                <div>
+                                    <h3 class="text-white fw-bold mb-0">400%</h3>
+                                    <p class="mb-0 text-light">Higher Employee Productivity</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-5 offset-md-1">
+                    <p class="text-warning fw-bold mb-1">Why Do You</p>
+
+                    <h2 class="fw-bold text-white mb-3">
+                        Need <span class="text-warning">Agile Transformation</span><br>
+                        in your organization?
+                    </h2>
+
+                    <p class="text-light">
+                        Agile is the way to adapt to the fast-changing market demands of every
+                        business. With Agile Transformation, we can help your company become
+                        more flexible and customer-focused, improve time-to-market, enhance
+                        quality, and boost employee engagement.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <img src="assets/images/why-shadow.webp" class="why-bottom-img" alt="">
+    </section>
+
+
+    <!-- SOLUTIONS -->
+    <div class="container py-5">
+        <p class="text-info fw-semibold">Unlock Business Agility</p>
+        <h2 class="fw-bold" style="font-size: 40px;">
+            Our<span class="text-info">Solutions</span> for You...
+        </h2>
+
+        <p class="col-md-6 mt-3">
+            Our services are designed for businesses to unlock the true potential for agility. Our consulting and
+            coaching enable organizations to adapt to market changes, seize new business opportunities, and minimize the
+            associated risks.
+        </p>
+
+        <div class="solutions-wrapper">
+            <div class="row border-btm">
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img1.png" alt="">
+                    </div>
+                    <div class="solution-title">Business Agility Using SAFe®</div>
+                    <div class="solution-desc">
+                        Accelerate your business agility journey, empower high-performing teams, remove delays, and
+                        deliver value faster.
+                    </div>
+
+                    <div class="read-more">Read-More<i class="bi bi-arrow-right-short"></i></div>
+                </div>
+
+
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img2.png" alt="">
+                    </div>
+                    <div class="solution-title">Building Agile Capability Using ICAgile</div>
+                    <div class="solution-desc">
+                        Sustaining Agility needs continuous support from the team and this is where our Coaches help you
+                        build solid Agile capabilities.
+                    </div>
+
+                    <div class="read-more">Read-More<i class="bi bi-arrow-right-short"></i></div>
+                </div>
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img3.png" alt="">
+                    </div>
+                    <div class="solution-title">Product Development Using Professional Scrum™</div>
+                    <div class="solution-desc">
+                        Empower your product development with Scrum.Our coaches collaborate with Scrum teams on pilot
+                        projects to deliver customer-centric products.
+                    </div>
+
+                    <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img4.png" alt="">
+                    </div>
+                    <div class="solution-title">Software Development with ScrumXP, Scrumban, & ScrumOps</div>
+                    <div class="solution-desc">
+                        We empower teams with Kanban for transparency and Extreme Programming for high-quality,
+                        on-demand releases through a DevOps pipeline.
+                    </div>
+                    <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
+                </div>
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img5.png" alt="">
+                    </div>
+                    <div class="solution-title">Service Delivery using Kanban Method</div>
+                    <div class="solution-desc">
+                        Embrace the three service delivery principles of Kanban - Focus on the Customer, Manage the
+                        Work, and evolve policies to improve customer & business focus.
+                    </div>
+                    <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
+                </div>
+
+                <div class="col-md-4 solution-box">
+                    <div class="solution-icon">
+                        <img src="assets/images/solution-img6.png" alt="">
+                    </div>
+                    <div class="solution-title">Agile Project Management with Agilemania</div>
+                    <div class="solution-desc">
+                        Maximize productivity, collaboration, and success with our tailored Project Management Services.
+                    </div>
+                    <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="about-section py-0">
+        <div class="container-fluid px-0">
+            <div class="row align-items-center g-0">
+
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="video-box parallax-box">
+                        <a href="https://youtu.be/kq_kAIh6V7k?feature=shared" class="play-btn" data-fancybox>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-1 order-lg-2" style="background: #076185;">
+                    <div class="about-content p-4 p-lg-5 text-center text-lg-start text-light">
+                        <h2 class="mb-3">Welcome to Agilemania</h2>
+
+                        <p>Agilemania is a passionate group of Lean-Agile-DevOps consultants...</p>
+                        <p>We partner with visionary leaders to solve transformation challenges...</p>
+                        <p>Our key partnerships add strength to our consulting, training and coaching services.</p>
+
+                        <a href="about-agilemania" class="btn btn-dark mt-3">
+                            READ MORE
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Trainings -->
+    <div class="container-training py-5">
+        <h2 class="text-center mb-4 fw-bold">Our Upcoming <span class="text-info">Trainings</span></h2>
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <div class="category-badge">BEGINNERS</div>
+                <div class="training-box text-start">
+
+                    <div class="training-item">
+                        <img src="assets/images/training1.webp" alt="">
+                        <div>Professional Scrum Master (PSM-I)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training2.webp" alt="">
+                        <div>Professional Scrum Product Owner (PSPO-I)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training3.webp" alt="">
+                        <div>SAFe® DevOps Practitioner (SDP)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training4.webp" alt="">
+                        <div>Certified Scrum Developer (CSD)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training5.webp" alt="">
+                        <div>Applying Professional Scrum for Software Development (APS-SD)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="category-badge">INTERMEDIATE</div>
+                <div class="training-box text-start">
+
+                    <div class="training-item">
+                        <img src="assets/images/training6.png" alt="">
+                        <div>Agile Coaching (ICP-ACC)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training7.webp" alt="">
+                        <div>Leading SAFe 6.0 or SAFe® 6 Agilist</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training8.webp" alt="">
+                        <div>Professional Scrum Product Owner – Advanced (PSPO-A)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training9.webp" alt="">
+                        <div>Professional Agile Leadership Essentials (PAL-E)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training10.webp" alt="">
+                        <div>Professional Scrum Master-Advanced (PSM-A)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="category-badge">ADVANCED</div>
+
+                <div class="training-box text-start">
+
+                    <div class="training-item">
+                        <img src="assets/images/training11.webp" alt="">
+                        <div>SAFe® Lean Portfolio Management (LPM)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training12.webp" alt="">
+                        <div>SAFe® Agile Product Management (APM)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training13.webp" alt="">
+                        <div>Enterprise Agile Coaching (ICP-ENT)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+
+                    <div class="training-item">
+                        <img src="assets/images/training14.webp" alt="">
+                        <div>Coaching Agile Transformations (ICP-CAT)</div>
+                        <a href="#"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Coaches -->
+    <section>
+    <div class="container py-4">
+
+        <!-- TOP ROW: Heading + Arrows -->
+       <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-bold">
+                Our <span class="text-primary">Coaches</span>
+            </h2>
+
+            <!-- ARROWS (outside carousel) -->
+            <div class="heading-arrows">
+                <button class="custom-arrow prev-btn" data-bs-target="#coachCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="custom-arrow next-btn" data-bs-target="#coachCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div id="coachCarousel" class="carousel slide" data-bs-ride="false">
+
+            <div class="carousel-inner">
+
+                <!-- SLIDE 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-between gap-4">
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches1.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Naveen Kumar Singh</h6>
+                            <p class="small">Principal Consultant – PST, SPC, Agile Coach, CSD & LFST</p>
+                        </div>
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches2.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Sumeet Madan</h6>
+                            <p class="small">Partner Consultant – PST & SPC</p>
+                        </div>
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches3.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Preeth Pandalay</h6>
+                            <p class="small">Partner Consultant – PST & Agile Coach</p>
+                        </div>
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches4.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Piyush Rahate</h6>
+                            <p class="small">Partner Consultant – PST, SPC & Agile Coach</p>
+                        </div>
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches5.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Satyajit Gantayat</h6>
+                            <p class="small">Partner Consultant – Agile Coach & SPC</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-start gap-4">
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches6.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Jane Au Yong</h6>
+                            <p class="small">Partner Consultant – Agile Coach & SPC</p>
+                        </div>
+
+                        <div class="coach-card text-center">
+                            <div class="coach-img-box">
+                                <img src="assets/images/coaches7.webp" class="coach-img">
+                            </div>
+                            <h6 class="mt-2 text-primary fw-bold">Hari Vepakomma</h6>
+                            <p class="small">Agile Consultant, Dev Manager & Agile Coach</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+  <section>
+      <div class="container py-5 position-relative">
+
+        <div class="row align-items-center justify-content-center">
+            <h2 class="fw-bold text-center">Get plugged in with others who are doing agile, <br> one of the largest
+                Agile & Scrum Communities.</h2>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <img src="assets/images/community1.webp" class="side-img left-img" alt="">
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="circle-bg d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="text-center mb-0">JOIN</h4>
+                    <h4 class="text-center mb-0">THE</h4>
+                    <h4 class="text-center mb-0">COMMUNITY</h4>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <img src="assets/images/community2.webp" class="side-img right-img" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-between align-items-start">
+
+                <div class="col-md-5 mb-4">
+                    <div class="mb-4">
+                        <h2 class="fw-bold mb-1">Testimonials</h2>
+                        <p class="text-muted">What people say about our sessions</p>
+                    </div>
+
+                    <div class="d-flex gap-3 flex-wrap">
+                        <img src="assets/images/testimonials1.webp" alt="reviews" class="img-fluid small-logo">
+                        <img src="assets/images/testimonials2.webp" alt="reviews" class="img-fluid small-logo">
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        (5/5) – Highly satisfied and strongly recommended
+                                        There are very few training, and coaching companies which bridges the gap
+                                        between theory and prac...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Pravin Vivekanandhan</h5>
+                                            <p class="text-muted">Participant | PSPO-A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        I had a fantastic learning experience in the PSM II course led by Preeth
+                                        Pandalay. His deep knowledge of Scrum, engaging teaching style, and real-worl...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0"> Neha Kaushal Nampally</h5>
+                                            <p class="text-muted">Participant | PSM-A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        Clear, consice training by Preeth! Highly recommended. The trainign was the
+                                        right balance between learning the concepts and getting yourself ready for...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Sudharsan Srivatsav Ravi</h5>
+                                            <p class="text-muted">Participant | PSM-I</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        I recently completed my PSM-I certification through Agilemania, and I’m
+                                        extremely grateful for the excellent training experience.
+                                        Preeth Pandalay co...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">shylaja vaduka</h5>
+                                            <p class="text-muted">Participant | PSM-I</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        Last Saturday, Nov 1, I attended the AI Enabled Scrum Master Training conducted
+                                        by Naveen Singh. It was worth the money. The examples and exercises we...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Soumyodip Banerjee</h5>
+                                            <p class="text-muted">Participant | AI-Enabled Scrum Master</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        Sumeet Madan was my instructor on the Professional Product Owner SCRUM and he
+                                        was very engaging! He also offered a lot of additional resources when th...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Leonie Ketteler</h5>
+                                            <p class="text-muted">Participant | PSPO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        I really enjoyed the AI-Enabled Scrum Master (BSM) class. Naveen is passionate
+                                        about both Business Agility and how it can be super-charged with respon...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Kevin North</h5>
+                                            <p class="text-muted">Participant | AI-Enabled Scrum Master</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        I Great session and helpful insights on usage of AI in day to day activities for
+                                        a Scrum Master.Look forward to attending more of these sessions.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Poorva Shrivastava</h5>
+                                            <p class="text-muted">Participant | AI-Enabled Scrum Master</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        Thanks to Sumeet Madan, the PSPO-1 training was very clearly explained and also
+                                        lot of practical knowledge and insights. Sumeet is an exceptional trai...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">JAGANNATHAN Varadarajan</h5>
+                                            <p class="text-muted">Participant | PSPO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="testimonial-box p-4">
+                                    <p class="mb-4">
+                                        I have a very good learning experience with my Tutor - Piyush. The way he took
+                                        the process of explaining the things by real time examples and activiti...
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/testimonials-img1.png" class="author-img me-3" alt="">
+
+                                        <div>
+                                            <h5 class="mb-0">Vasuki Narasimhan P</h5>
+                                            <p class="text-muted">Participant | PSM-I</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#testiCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#testiCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5" style="background: #f5fdfd;">
+        <div class="container text-center">
+
+            <h3 class="fw-bold mb-4">HAPPY CLIENTS</h3>
+
+            <div class="row g-4">
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients1.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients2.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients3.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients4.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients5.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients6.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients7.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients8.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients9.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients10.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients11.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients12.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients13.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients14.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients15.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients16.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients17.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="client-box shadow-sm p-3 bg-white rounded-4">
+                        <img src="assets/images/clients18.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container py-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2 class="fw-bold">Agilemania <span class="text-info">Blogs</span></h2>
+                <p class="text-muted">
+                    Browse from 500+ curated collections of resources on Agile, Scrum, SAFe<br>
+                    Lean, and related topics.
+                </p>
+            </div>
+
+            <a href="#" class="fw-semibold text-decoration-none">
+                VIEW ALL →
+            </a>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="blog-card position-relative overflow-hidden">
+                    <img src="assets/images/blog1.jpg" class="w-100 rounded" />
+
+                    <div class="hover-box d-flex flex-column justify-content-end">
+                        <div class="read-more">Read more </div>
+                    </div>
+                </div>
+
+                <h5 class="mt-3 fw-bold">
+                    The Story Behind the AI-Enabled Scrum Master class
+                </h5>
+            </div>
+
+            <div class="col-md-4">
+                <div class="blog-card position-relative overflow-hidden">
+                    <img src="assets/images/blog2.jpg" class="w-100 rounded" />
+
+                    <div class="hover-box d-flex flex-column justify-content-end">
+                        <div class="read-more">Read more </div>
+                    </div>
+                </div>
+
+                <h5 class="mt-3 fw-bold">
+                    What Is The Average Salary of a Software Developer?
+                </h5>
+            </div>
+
+            <div class="col-md-4">
+                <div class="blog-card position-relative overflow-hidden">
+                    <img src="assets/images/blog3.jpg" class="w-100 rounded" />
+
+                    <div class="hover-box d-flex flex-column justify-content-end">
+                        <div class="read-more">Read more </div>
+                    </div>
+                </div>
+
+                <h5 class="mt-3 fw-bold">
+                    Product Design Explained: What It Is & The Tools Behind It
+                </h5>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold mb-3">Knowledge Area</h6>
+                            <ul class="list-unstyled small">
+                                <li><a href="#" class="text-white-50">Scrum</a></li>
+                                <li><a href="#" class="text-white-50">SAFe</a></li>
+                                <li><a href="#" class="text-white-50">Product Management</a></li>
+                                <li><a href="#" class="text-white-50">Agile Leadership</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold mb-3">Course Categories</h6>
+                            <ul class="list-unstyled small">
+                                <li><a href="#" class="text-white-50">Scrum.Org</a></li>
+                                <li><a href="#" class="text-white-50">SAFe®</a></li>
+                                <li><a href="#" class="text-white-50">ICAgile</a></li>
+                                <li><a href="#" class="text-white-50">Scrum Alliance</a></li>
+                                <li><a href="#" class="text-white-50">Technical Agilityt</a></li>
+                                <li><a href="#" class="text-white-50">Kanban</a></li>
+                                <li><a href="#" class="text-white-50">Business Analysis</a></li>
+                                <li><a href="#" class="text-white-50">Project Management</a></li>
+                                <li><a href="#" class="text-white-50">AI-Enabled</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold mb-3">Quick Links</h6>
+                            <ul class="list-unstyled small">
+                                <li><a href="#" class="text-white-50">All Courses</a></li>
+                                <li><a href="#" class="text-white-50">Learning Path</a></li>
+                                <li><a href="#" class="text-white-50">Mentoring</a></li>
+                                <li><a href="#" class="text-white-50">Coaching</a></li>
+                                <li><a href="#" class="text-white-50">Our Consultant</a></li>
+                                <li><a href="#" class="text-white-50">About</a></li>
+                                <li><a href="#" class="text-white-50">Blog</a></li>
+                                <li><a href="#" class="text-white-50">Bootcamp Program</a></li>
+                                <li><a href="#" class="text-white-50">Agile30</a></li>
+                                <li><a href="#" class="text-white-50">SAFeThursday</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold mb-3">Other Links</h6>
+                            <ul class="list-unstyled small">
+                                <li><a href="#" class="text-white-50">Webinar</a></li>
+                                <li><a href="#" class="text-white-50">Assessment</a></li>
+                                <li><a href="#" class="text-white-50">Career</a></li>
+                                <li><a href="#" class="text-white-50">Testimonials</a></li>
+                                <li><a href="#" class="text-white-50">Refer & Earn</a></li>
+                                <li><a href="#" class="text-white-50">Corporate</a></li>
+                                <li><a href="#" class="text-white-50">Code Of Conduct</a></li>
+                                <li><a href="#" class="text-white-50">Course Finder</a></li>
+                                <li><a href="#" class="text-white-50">Hire Agile Coaches</a></li>
+                                <li><a href="#" class="text-white-50">Safe Glossary</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-lg-end">
+                        <div>
+                            <h6 class="fw-bold mb-3">Certified Partners</h6>
+
+                            <div class="d-flex gap-3 mb-4 flex-wrap">
+                                <img src="assets/images/footericon1.png" width="60" height="60"
+                                    class="img-fluid rounded" alt="">
+                                <img src="assets/images/footericon2.png" width="60" height="60"
+                                    class="img-fluid rounded" alt="">
+                                <img src="assets/images/footericon3.png" width="60" height="60"
+                                    class="img-fluid rounded" alt="">
+                                <img src="assets/images/footericon4.png" width="60" height="60"
+                                    class="img-fluid rounded" alt="">
+                                <img src="assets/images/footericon5.png" width="60" height="60"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+
+                            <h6 class="fw-bold mb-3">Follow Us</h6>
+                            <div class="d-flex gap-3 fs-4">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-4 pt-3 border-top border-secondary">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small">
+
+                <div class="mb-2 mb-md-0">
+                    Agilemania Technologies Private Limited © 2025 All rights reserved.
+                </div>
+
+                <div class="text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none mx-2">Privacy Policy</a> |
+                    <a href="#" class="text-white text-decoration-none mx-2">Terms of Service</a> |
+                    <a href="#" class="text-white text-decoration-none mx-2">Payment Terms of Razorpay</a> |
+                    <a href="#" class="text-white text-decoration-none mx-2">Refund Policy</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
