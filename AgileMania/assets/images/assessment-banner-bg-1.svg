@@ -1,0 +1,55 @@
+<svg width="1320" height="618" viewBox="0 0 1320 618" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.03" clip-path="url(#clip0_246_1391)">
+<mask id="mask0_246_1391" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1320" height="618">
+<path d="M1320 0H0V618H1320V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_246_1391)">
+<path d="M48.8125 0V618" stroke="black"/>
+<path d="M97.625 0V618" stroke="black"/>
+<path d="M146.438 0V618" stroke="black"/>
+<path d="M195.25 0V618" stroke="black"/>
+<path d="M244.062 0V618" stroke="black"/>
+<path d="M292.875 0V618" stroke="black"/>
+<path d="M341.688 0V618" stroke="black"/>
+<path d="M390.5 0V618" stroke="black"/>
+<path d="M439.312 0V618" stroke="black"/>
+<path d="M488.125 0V618" stroke="black"/>
+<path d="M536.938 0V618" stroke="black"/>
+<path d="M585.75 0V618" stroke="black"/>
+<path d="M634.562 0V618" stroke="black"/>
+<path d="M683.375 0V618" stroke="black"/>
+<path d="M732.188 0V618" stroke="black"/>
+<path d="M781 0V618" stroke="black"/>
+<path d="M829.812 0V618" stroke="black"/>
+<path d="M878.625 0V618" stroke="black"/>
+<path d="M927.438 0V618" stroke="black"/>
+<path d="M976.25 0V618" stroke="black"/>
+<path d="M1025.06 0V618" stroke="black"/>
+<path d="M1073.88 0V618" stroke="black"/>
+<path d="M1122.69 0V618" stroke="black"/>
+<path d="M1171.5 0V618" stroke="black"/>
+<path d="M1220.31 0V618" stroke="black"/>
+<path d="M1269.12 0V618" stroke="black"/>
+<path d="M0 50.8125H1320" stroke="black"/>
+<path d="M0 101.627H1320" stroke="black"/>
+<path d="M0 152.439H1320" stroke="black"/>
+<path d="M0 203.254H1320" stroke="black"/>
+<path d="M0 254.066H1320" stroke="black"/>
+<path d="M0 304.881H1320" stroke="black"/>
+<path d="M0 355.693H1320" stroke="black"/>
+<path d="M0 406.506H1320" stroke="black"/>
+<path d="M0 457.32H1320" stroke="black"/>
+<path d="M0 508.133H1320" stroke="black"/>
+<path d="M0 558.947H1320" stroke="black"/>
+<path d="M0 609.76H1320" stroke="black"/>
+<g opacity="0.541071">
+<path d="M1025.41 427.662V224.408" stroke="black" stroke-width="0.9"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_246_1391">
+<rect width="1320" height="618" fill="white"/>
+</clipPath>
+</defs>
+</svg>
