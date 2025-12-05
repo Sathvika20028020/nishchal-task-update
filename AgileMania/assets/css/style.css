@@ -743,7 +743,19 @@ section {
 
     .coach-img {
         width: 200px;
-        gap: 2px;
+        gap: 1px;
+        align-items: center;
+    }
+}
+@media (min-width: 320px) {
+    .slider-item {
+        flex: 0 0 100%;
+
+    }
+
+    .coach-img {
+        width: 200px;
+       
         align-items: center;
     }
 }
